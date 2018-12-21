@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Mon, 23 Jul 2018 17:58:49 +0000
+Source: cython
+Binary: cython cython-dbg cython3 cython3-dbg cython-doc
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64 all
+Version: 0.28.4-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
+Changed-By: Julian Taylor <jtaylor.debian@googlemail.com>
+Description:
+ cython     - C-Extensions for Python
+ cython-dbg - C-Extensions for Python - debug build
+ cython-doc - C-Extensions for Python - documentation
+ cython3    - C-Extensions for Python 3
+ cython3-dbg - C-Extensions for Python 3 - debug build
+Closes: 902551 902784 903024
+Changes:
+ cython (0.28.4-1) unstable; urgency=medium
+ .
+   * New upstream release (Closes: #902551)
+   * Fix missing installation of some debug libraries. (Closes: #902784)
+   * debian/patches/fix-fused-test.patch:
+     fix invalid testcase crashing with gcc-8
+   * debian/patches/drop-test.patch:
+     drop test of behaviour changed in python3.7
+     Closes: #903024
+   * bump standards version
+   * switch to python3-sphinx
+Checksums-Sha1:
+ a15746265f3b0f4762403ae3290f846377da8f42 8574940 cython-dbg_0.28.4-1_amd64.deb
+ e95d7af30394e65b4f6bbc8f9ae4c0122e5a3578 38440 cython-doc_0.28.4-1_all.deb
+ 04dd5481650f7ed7cb774fb060d4aaa5611e5975 8704880 cython3-dbg_0.28.4-1_amd64.deb
+ 5d9b0a450691c1b18d4509f388e80520369cc55a 3284636 cython3_0.28.4-1_amd64.deb
+ 8b0d2ad7eba484f81b82464bb9775c381870cc47 9105 cython_0.28.4-1_amd64.buildinfo
+ 2317e8c5af30c9a5a9482fc0a7c52fbf2ffaa28c 3440288 cython_0.28.4-1_amd64.deb
+Checksums-Sha256:
+ 1fdbd81b30678ac62020889c090ea1ba0d61a94e2314456b4a722b731fede9fc 8574940 cython-dbg_0.28.4-1_amd64.deb
+ 2b8ec16bc06a935d2959c4917bf6ebc401c2e5d0d4848da28e374170a8a9d0b3 38440 cython-doc_0.28.4-1_all.deb
+ 708d4798aff796da0f9cc91356336e533357007f4eb0f007ca290eacd14f28aa 8704880 cython3-dbg_0.28.4-1_amd64.deb
+ 303093c229c524b4169ba9ca6745dc6d573f969611b09b9dfb909ab705004196 3284636 cython3_0.28.4-1_amd64.deb
+ fcc211fd4a0a407d018f09b7a6a6e5b5caa49e7f8847be9348fc5b67b1e67960 9105 cython_0.28.4-1_amd64.buildinfo
+ 3a4006850762c1b9263c742b2a1e5dcd41b6a54740ba6fe1609863f9c03bf246 3440288 cython_0.28.4-1_amd64.deb
+Files:
+ 41d9265fae580a06bf57b95641990d35 8574940 debug optional cython-dbg_0.28.4-1_amd64.deb
+ 778f0ca8cda26d75939b48c5e152c122 38440 doc optional cython-doc_0.28.4-1_all.deb
+ b4532d30d0f4f545f1e8ed822331d895 8704880 debug optional cython3-dbg_0.28.4-1_amd64.deb
+ ef45a6e891c1ac8245d6eb6aea0cb2cc 3284636 python optional cython3_0.28.4-1_amd64.deb
+ b838d858d152ddec5ee1e01d02b7ec77 9105 python optional cython_0.28.4-1_amd64.buildinfo
+ a05d645e2952cba80cb486a3ef5e7afb 3440288 python optional cython_0.28.4-1_amd64.deb

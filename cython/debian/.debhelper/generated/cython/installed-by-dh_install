@@ -1,0 +1,14 @@
+debian/tmp/usr/bin/cython
+debian/tmp/usr/bin/cygdb
+debian/tmp/usr/lib/python2.7/dist-packages/Cython
+debian/tmp/usr/lib/python2.7/dist-packages/Cython-0.28.4.egg-info
+debian/tmp/usr/lib/python2.7/dist-packages/cython.py
+debian/tmp/usr/lib/python2.7/dist-packages/pyximport
+./Tools/cython-mode.el
+debian/tmp/usr/bin/cython
+debian/tmp/usr/bin/cygdb
+debian/tmp/usr/lib/python2.7/dist-packages/Cython
+debian/tmp/usr/lib/python2.7/dist-packages/Cython-0.28.4.egg-info
+debian/tmp/usr/lib/python2.7/dist-packages/cython.py
+debian/tmp/usr/lib/python2.7/dist-packages/pyximport
+./Tools/cython-mode.el

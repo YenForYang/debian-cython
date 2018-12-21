@@ -1,0 +1,14 @@
+debian/tmp/usr/bin/cython3
+debian/tmp/usr/bin/cygdb3
+debian/tmp/usr/lib/python3/dist-packages/__pycache__
+debian/tmp/usr/lib/python3/dist-packages/Cython
+debian/tmp/usr/lib/python3/dist-packages/Cython-0.28.4.egg-info
+debian/tmp/usr/lib/python3/dist-packages/cython.py
+debian/tmp/usr/lib/python3/dist-packages/pyximport
+debian/tmp/usr/bin/cython3
+debian/tmp/usr/bin/cygdb3
+debian/tmp/usr/lib/python3/dist-packages/__pycache__
+debian/tmp/usr/lib/python3/dist-packages/Cython
+debian/tmp/usr/lib/python3/dist-packages/Cython-0.28.4.egg-info
+debian/tmp/usr/lib/python3/dist-packages/cython.py
+debian/tmp/usr/lib/python3/dist-packages/pyximport
